@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 
-const P = styled.p`
+const P = styled.p `
   font-size:24px;
   color:red;
 ` 
+const Content= styled.div`
+  padding: 20px 25px;
 
+`
 function App() {
   return (
-    <div >
+    <Content>
       <P>Hola</P>
-    </div>
+    </Content>
   );
 }
 
