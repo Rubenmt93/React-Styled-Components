@@ -30,7 +30,7 @@ function App() {
       <Button primary> Enviar</Button>
       <br/>
       <br/>
-      <BlockButton primary> Enviar</BlockButton>
+      <BlockButton primary as='a' href="#"> Enviar</BlockButton>
 
     </Content>
   );
